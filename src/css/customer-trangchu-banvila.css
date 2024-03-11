@@ -1,0 +1,192 @@
+.estate-container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #f7f7f7;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* Thêm display:flex để sử dụng justify-content */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    justify-content: center;
+}
+
+
+
+.investor-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.estates-wrapper {
+
+    width: 1170px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+
+}
+
+.estate-item {
+
+    flex: 0 0 calc(33.33% - 20px);
+    /* Sử dụng 20% của container cha */
+    margin: 0 10px 20px 0;
+    background-color: #f9f9f9;
+    border: 1px solid rgb(255, 255, 255)
+}
+
+.main-title {
+
+    background-color: #f7f7f7;
+    width: 1420px;
+    margin-bottom: 10px;
+}
+
+.estate-info {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    width: 470;
+    height: 390;
+}
+
+.estate-name {
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.trangthaiban {
+
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.121);
+    border-bottom: 1px solid #90c908;
+    color: #90c908;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Canh chỉnh các ảnh ngang nhau */
+}
+
+.image-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.image-info {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.estate-image {
+    width: 100%;
+    height: 300px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* căn giữa theo chiều ngang */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* thay đổi giá trị margin-top tùy ý */
+
+}
+
+.show-more-button {
+    background-color: #90c908;
+    border-radius: 9px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.thanhphoprice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-location {
+    width: 14px;
+    height: 14px;
+    margin-bottom: 4px;
+    margin-left: 15 px;
+}
+
+.thanhpho {
+    margin-left: 7px;
+}
+
+.price {
+    margin-right: 15px;
+    color: #90c908;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.estate-name {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #34495e;
+    font-size: 16px;
+    font-weight: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.4;
+}
+
+.estate-name:hover {
+    color: #90c908;
+}
+
+.estate-discription, .logo-thanhpho {
+    margin-left: 15px;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+
+.real-title {
+    margin-left: 10%;
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 5px;
+    border-radius: 1px;
+    background-color: #90c908;
+}
+
+.text-realtitle {
+    margin-left: 20px;
+    width: 560px;
+}
+
+.textso1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.textso2 {
+    color: #90c908;
+}

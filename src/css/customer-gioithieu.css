@@ -1,0 +1,353 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style for the container div */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+/* Style for the buttons */
+.button-container {
+    display: flex;
+
+}
+
+.customer-btn,
+.investor-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #90c908;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.infobox .title {
+    margin-bottom: 20px;
+}
+
+/* Style for the form */
+.infobox .custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form input {
+    /* Dịch chuyển các input xuống dưới 20px */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.title {
+    margin-top: -42px;
+}
+
+/* Style for the submit button */
+.submit-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #90c908;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button on hover */
+.submit-btn:hover {
+    background-color: orange;
+}
+
+h2 {
+    cursor: default;
+}
+
+.infoimage {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+
+.TrangGioiThieu {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.itemImage {
+    width: 120px;
+    height: 120px;
+}
+
+
+/* CSS */
+.serviceContainer {
+    padding: 10px;
+    background-color: #F3F3F9;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* Thêm display:flex để sử dụng justify-content */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    justify-content: center;
+}
+
+.serviceHeader {
+    width: 80%;
+    background-color: #F3F3F9;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.textdvcc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.dvcc {
+    display: flex;
+}
+
+.dv {
+    font-size: 36px;
+    font-weight: 600;
+    color: #90c908;
+
+}
+
+.cc {
+    margin-left: 5px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #114a82;
+}
+
+.itemContainer {
+    width: 80%;
+    background-color: #F3F3F9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.itemImage {
+
+    margin-bottom: 10px;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itemTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: #515666;
+}
+
+.itemDescription {
+    margin-top: 10px;
+    color: #515666;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.main3 {
+
+    display: flex;
+}
+
+.main-image {
+    margin-top: 40px;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.main-content-part3 {
+
+    background-color: rgba(17, 74, 130, 0.85);
+    border-bottom: 475px solid transparent;
+    border-right: 300px solid #FFFF;
+
+}
+
+.side-content-part3 {
+    background-color: #FFFF;
+}
+
+.progressbar-part3 {
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.progressbar-fill {
+    height: 100%;
+    width: 0;
+    background-color: #90c908;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.heading-part3 {
+    font-size: 32px;
+    margin-bottom: 22px;
+    color: #114a82;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.description-part3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #515666;
+}
+
+.head-des {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-content-part3-main {
+    width: 70%;
+}
+
+/* CSS */
+/* CSS */
+.ContentSection {
+    margin-bottom: 2px;
+    text-align: justify;
+    border: 1px solid #ccc;
+    /* Khung màu xám */
+
+    background-color: #ededf7;
+    /* Mặc định màu nền cho phần tiêu đề */
+    cursor: pointer;
+    width: 480px;
+
+
+}
+
+.ContentSection.active p {
+    padding: 20px;
+    background-color: #ffffff;
+
+    /* Màu nền cho phần nội dung khi được nhấp vào */
+}
+
+.ContentSection h2 {
+    width: 480px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: inherit;
+    color: #114a82;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* Thêm display:flex để sử dụng justify-content */
+
+    /* Căn giữa theo chiều dọc */
+
+    /* Duy trì màu nền cho phần tiêu đề */
+}
+
+.dangcap {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dangcapvietvillas {
+    width: 480px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+.textdang,
+.textcap {
+    font-size: 26px;
+    width: 70px;
+    text-align: right;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 26px;
+    font-weight: 600;
+    color: #90c908;
+}
+
+.textviet,
+.vietvillas {
+    font-size: 68px;
+    text-transform: inherit;
+    margin-bottom: 35px;
+    text-align: right;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.textviet {
+    text-align: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #114a82;
+}
+
+.vietvillas {
+    text-align: right;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #90c908;
+}
+
+.gioithieupart1 {
+    display: flex;
+    flex-direction: column;
+    /* Thêm display:flex để sử dụng justify-content */
+    align-items: last baseline;
+    /* Căn giữa theo chiều dọc */
+
+
+}

@@ -1,0 +1,9 @@
+.selected {
+    opacity: 0.5; /* hoặc bất kỳ hiệu ứng mờ nào bạn muốn áp dụng */
+  }
+  .containerxxx{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+  }

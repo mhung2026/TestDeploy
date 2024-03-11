@@ -1,0 +1,293 @@
+.hinhanhmota {
+    width: 40%;
+    height: 30%;
+}
+
+.hinhanhmotathongtin {
+    display: flex;
+
+}
+
+.thongtinchitiet {
+    margin-left: 70px;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Màu nền đen với độ mờ */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    /* Căn nội dung theo chiều ngang vào giữa */
+    align-items: center;
+    /* Căn nội dung theo chiều dọc vào giữa */
+}
+
+.popup-content {
+    display: flex;
+    background-color: #fff;
+    /* Màu nền của nội dung popup */
+    padding: 20px;
+    /* Khoảng cách giữa nội dung và viền của popup */
+    border-radius: 8px;
+    /* Bo tròn các góc của popup */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    /* Hiệu ứng bóng đổ */
+    max-width: 80%;
+    /* Độ rộng tối đa của popup */
+    max-height: 80%;
+    /* Độ cao tối đa của popup */
+    overflow: auto;
+    /* Cho phép cuộn nếu nội dung quá dài */
+}
+
+.popup-image {
+    padding: 30px;
+    max-width: 100%;
+    /* Ảnh sẽ không vượt quá kích thước của popup */
+    height: auto;
+    /* Đảm bảo tỷ lệ khung hình không bị méo */
+}
+
+
+
+.image-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.hinhanh{
+    margin-left: 20px;
+}
+.sub-images  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px; /* Adjust spacing between main image and sub-images */
+}
+
+.sub-image {
+    margin-top: 50%;
+    width: calc(25% - 5px);
+    /* Đặt kích thước nhỏ cho các hình ảnh còn lại và bố trí chúng theo hàng */
+    height: auto;
+}
+
+.small-image {
+    max-width: 50%; /* Ensure the image fits within its container */
+    max-height: 50%; /* Ensure the image fits within its container */
+    display: block;
+    margin-top: -120px;
+    margin-left: 4px;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+    width: 20px;
+}
+
+.next-btn {
+    right: 8px;
+}
+
+.prev-btn {
+    left: 8px;
+}
+
+.close-btn {
+    background-color: #90c908;
+}
+
+
+
+
+.hinhanhmota {
+    width: 40%;
+    height: 30%;
+}
+
+.hinhanhmotathongtin {
+    display: flex;
+
+}
+
+.motabatdongsan {
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.thongtinchitiet {
+    padding: 20px;
+}
+
+.thongtinchitiet h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-item b {
+    font-weight: bold;
+}
+
+.show-booking-info-btn {
+    background-color: #90c908;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.show-booking-info-btn:hover {
+    background-color: #dab327;
+}
+
+
+.thongtinkhachdat{
+    margin-top: 20px;
+}
+
+.anhpopuptest {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.anhpopuptest p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.close-btn,
+.booking-btn {
+    background-color: #90c908;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.booking-btn {
+    margin-top: 20px;
+}
+
+.date-picker,
+.time-picker {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    width: 39%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h3:first-of-type {
+    margin-top: 0;
+}
+
+/* Container for the table columns */
+.basb {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Each column */
+.motabatdongsan,
+.motabatdongsan1 {
+    width: 48%; /* Adjust width to leave space for margins */
+}
+
+/* Style for the table */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px solid #ccc;
+}
+
+/* Style for table header */
+
+
+/* Style for table cells */
+.info-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333; /* Text color */
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px solid #ccc;
+}
+
+
+/* Alternate row color */
+.info-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Hover effect for table rows */
+.info-table tr:hover {
+    background-color: #f0f0f0; /* Hover background color */
+}
+
+/* Adjust the style of the last row */
+.info-table tbody tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+
+.motabatdongsan1{
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,63 @@
+.lichsugiaodichtaikhoan{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.lichsugiaodichtaikhoan h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.transaction-history-container {
+    padding: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Animation for table rows */
+.table tbody tr {
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Hover effect for table rows */
+.table tbody tr:hover {
+    background-color: #f0f0f0;
+}

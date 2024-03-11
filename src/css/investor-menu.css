@@ -1,0 +1,51 @@
+/* CSS cho phần đầu của phần tử div */
+.col-md-3.account {
+    background-color: white;
+    /* Màu nền */
+    padding: 20px;
+    /* Khoảng cách bên trong */
+    border-radius: 10px;
+    /* Bo viền */
+
+}
+
+/* CSS cho phần chữ Chào mừng */
+.col-md-3.account .welcome {
+    font-size: 18px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Độ đậm */
+    color: #333;
+    /* Màu chữ */
+    margin-bottom: 10px;
+    /* Khoảng cách phía dưới */
+}
+
+
+/* CSS cho danh sách menu */
+.menu-list-investor {
+    list-style-type: none;
+    /* Loại bỏ dấu đầu dòng của danh sách */
+    padding: 0;
+    /* Loại bỏ khoảng cách bên trong danh sách */
+}
+
+/* CSS cho mỗi mục menu */
+.menu-item-container {
+    margin-bottom: 0px;
+    /* Khoảng cách giữa các mục menu */
+
+}
+
+/* CSS cho liên kết trong menu */
+.menu-item-investor {
+    text-decoration: none;
+    /* Loại bỏ gạch chân của liên kết */
+    color: black;
+    /* Màu chữ */
+    transition: color 0.3s;
+    /* Hiệu ứng chuyển đổi màu chữ */
+
+}
+
+

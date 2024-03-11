@@ -1,0 +1,72 @@
+.thongtin {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #90c908;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  .select-location {
+    margin-bottom: 20px;
+  }
+  
+  .select-location .tieude1 {
+    margin-bottom: 20px;
+  }
+  .tieude1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+/*   
+  ul li {
+    margin-bottom: 10px;
+  }
+   */
+  .App123 {
+    text-align: center;
+  }
+  
+  .chontep {
+    margin-top: 10px;
+  }
+  

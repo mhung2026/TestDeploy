@@ -1,0 +1,142 @@
+/* CSS for role selection */
+.rolemoi {
+    width: 400px; /* Điều chỉnh chiều rộng của phần chứa nút */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.chonrole {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.taorole {
+    display: flex;
+    justify-content: center;
+}
+
+.taorole button {
+    flex: 1; /* Chia đều chiều rộng của các nút */
+    background-color: #90c908;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-right: 10px; /* Giảm khoảng cách giữa các nút */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 18px;
+}
+
+.taorole button:last-child {
+    margin-right: 0;
+}
+
+.taorole button:hover {
+    background-color: #90c908;
+    transform: translateY(-3px);
+}
+
+.taorole button:active {
+    transform: translateY(1px);
+}
+
+.taorole button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.taorole button:hover::after {
+    opacity: 1;
+}
+
+.taorole button:active::after {
+    transform: scale(1.1);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.formdangkytaikhoan {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease;
+}
+
+.formdangkytaikhoan h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.formdangkytaikhoan form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formdangkytaikhoan label {
+    margin-bottom: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+.formdangkytaikhoan input[type="text"],
+.formdangkytaikhoan input[type="password"],
+.formdangkytaikhoan input[type="email"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    font-weight: bold;
+    width: calc(100% - 30px);
+}
+
+.formdangkytaikhoan input[type="text"]:focus,
+.formdangkytaikhoan input[type="password"]:focus,
+.formdangkytaikhoan input[type="email"]:focus {
+    border-color: #66afe9;
+}
+
+.formdangkytaikhoan button {
+    padding: 15px 0;
+    background-color: #90c908;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: calc(100% - 30px);
+}
+
+
+

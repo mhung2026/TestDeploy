@@ -1,0 +1,54 @@
+/* Container styles */
+.container {
+    padding: 20px;
+}
+
+.listrealfix{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.listrealfix h1{
+    margin-bottom: 20px;
+
+
+}
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    list-style-type: none;
+
+}
+
+.table1 th,
+.table1 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+}
+
+.table1 th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table1 tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table1 tbody tr:hover {
+    background-color: #ddd;
+}
+
+.table1 tr p {
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Adjust padding, border, background-color, etc., as needed */

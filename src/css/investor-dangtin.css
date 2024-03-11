@@ -1,0 +1,314 @@
+/* Add these styles to your existing CSS or create a new CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+}
+
+.dangtinlist{
+    margin: 12px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+.menu-list-investor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+    /* Thiết lập chiều cao */
+}
+
+.menu-item-container {
+    text-align: left;
+    margin-bottom: 2px;
+    width: 100%;
+    /* Thiết lập chiều rộng */
+}
+
+.menu-item-investor {
+    text-decoration: none;
+
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.account,
+.thongitnbatdongsan,
+.thongtinbatdongsan1,
+.thongtinbaiviet {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buuton-logout {
+    width: 120px;
+    height: 30px;
+    background-color: #90c908;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thongitnbatdongsan {
+    background-color: rgb(255, 255, 255);
+}
+
+.thongtinbaiviet {
+    background-color: rgb(253, 253, 253);
+}
+
+.thongtinbatdongsan1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.tieude {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.dangtin {
+
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+.trangdangtin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mota {
+    border-radius: 5px;
+    height: 55px;
+}
+
+/* Style for the image upload section */
+
+
+.Avatar {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    /* height: 35px; */
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000000; */
+    width: 200px;
+    height: 40px;
+}
+
+.chonhuong {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    /* height: 35px; */
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.sonha {
+    width: 100%;
+}
+
+.App123 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chontep {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 310px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #90c908;
+    /* Bootstrap's primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.custom-select {
+    margin-left: 2px;
+    width: 30%;
+    /* Điều chỉnh độ rộng của select box */
+    height: 40px;
+    /* Điều chỉnh chiều cao của select box */
+    padding: 5px;
+    /* Điều chỉnh padding bên trong của select box */
+    font-size: 16px;
+    font-weight: 400;
+    /* Điều chỉnh kích thước chữ */
+    border: 1px solid #000000;
+    /* Điều chỉnh viền của select box */
+    border-radius: 4px;
+    /* Bo tròn các góc của select box */
+    background-color: #fff;
+    /* Màu nền của select box */
+    color: #000000;
+    /* Màu chữ của select box */
+    outline: none;
+    /* Loại bỏ viền màu xanh khi focus */
+    cursor: pointer;
+    /* Chuyển đổi con trỏ thành hình bàn tay khi di chuột qua */
+    text-align: left;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.custom-select:hover {
+    background-color: #ffffff;
+    /* Điều chỉnh màu viền khi di chuột qua */
+}
+
+.custom-select:focus {
+    border-color: #000000;
+    /* Điều chỉnh màu viền khi focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    /* Hiển thị shadow khi focus */
+}
+
+.chieudai,
+.chieurong,
+.dientich,
+.mucgia {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.sophong,
+.chietkhau,
+.mucgia {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.cdcrdt,
+.spck {
+    display: flex;
+    justify-content: space-between;
+    /* Căn đều giữa các phần tử */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Căn giữa các cột */
+}
+
+.image-section {
+    width: calc(50% - 10px);
+    /* Độ rộng của mỗi khung hình ảnh (33.33% trừ đi khoảng cách giữa các khung) */
+    margin-bottom: 20px;
+    /* Khoảng cách giữa các dòng */
+    padding: 10px;
+    /* Khoảng cách lề trong mỗi khung hình ảnh */
+    border: 1px solid #ccc;
+    /* Viền */
+    border-radius: 5px;
+    /* Bo góc */
+    box-sizing: border-box;
+    /* Đảm bảo rằng kích thước của khung bao gồm cả độ dày của viền */
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.image-section span {
+    font-weight: bold;
+}
+
+.tieude1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-dangtin {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button-dangtin:hover {
+    background-color: #90c908;
+    color: white;
+    border: 2px solid#90c908;
+    background-color: #90c908;
+
+}
+
+.chonbatdongsan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.select-all-location {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+/* CSS */
+.thongtindanhsach {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.thongtindanhsach th, .thongtindanhsach td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.thongtindanhsach th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.thongtindanhsach tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.thongtindanhsach tr:hover {
+    background-color: #f0f0f0;
+}
+
+.thongtindanhsach td {
+    cursor: pointer;
+}
+
+.thongtindanhsach td:hover {
+    background-color: #eaeaea;
+}

@@ -1,0 +1,109 @@
+.fillter {
+    background-color: #90c908;
+    /* Màu nền của fillter */
+    padding: 10px;
+    /* Khoảng cách bên trong fillter */
+    display: flex;
+    /* Sử dụng flexbox */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+
+    /* Đặt chiều cao fillter tương đương với toàn bộ viewport */
+}
+
+.fillter1 {
+    width: 90%;
+    /* Đặt giới hạn chiều rộng tối đa */
+    background-color: #90c908;
+    /* Màu nền của fillter1 */
+    padding: 10px;
+    /* Khoảng cách bên trong fillter1 */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.dthtk {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ct-button-fillter {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 4px;
+    /* Điều chỉnh độ rộng của select box */
+    height: 40px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 0%);
+
+
+}
+
+
+
+.ct-button-fillters {
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 4px solid white;
+    background-color: #90c908;
+    font-weight: 600;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 9px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ct-button-fillter:last-child {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    background-color: #90c908;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.ct-button-fillters:hover {
+    background-color: #ffffff;
+    color: #90c908;
+    border: none;
+}
+
+.canhoban {
+
+    text-align: center;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    width: 10%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #90c908;
+
+}
+
+.loccanhoban {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}

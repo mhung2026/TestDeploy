@@ -1,0 +1,188 @@
+.chaomung {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.video-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Màu nền đen mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* Đảm bảo popup hiển thị trên cùng */
+}
+
+.video-popup-inner {
+    position: relative;
+    width: 80%;
+    /* Độ rộng của popup */
+    max-width: 800px;
+    height: 500px;
+    /* Giới hạn độ rộng tối đa */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Đổ bóng cho popup */
+}
+
+.video-popup-inner iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-popup-inner button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-popup-inner button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.khungchu {
+    margin-left: 5%;
+    width: 90%;
+
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-chaomung, .textvietvillas {
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.4;
+    color: #333;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.textvietvillas {
+    color: #90c908;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0;
+
+}
+
+.khunggioithieu {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+.text-gioithieu {
+
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.anhlogotrangchu {
+    width: 32px;
+    height: 32px;
+}
+
+.motatrangchu1 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.gioithieuContainer {
+    display: flex;
+    align-items: center;
+
+    /* Canh giữa theo chiều dọc */
+}
+
+.gioithieu1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.gioithieu2 {
+    margin-right: 100px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.listLogoContainer {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    /* Canh giữa các phần tử và tạo khoảng cách giữa chúng */
+}
+
+
+
+.col-md-6-containertrangchu {
+    position: relative;
+    width: 565px;
+    height: 424px;
+}
+
+.anhvideo {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.xemthem-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    /* Đặt kích thước của nút */
+    height: 100px;
+    /* Đặt kích thước của nút */
+    border-radius: 50%;
+    /* Làm cho nút trở thành hình tròn */
+    background-color: #90c908;
+    /* Màu nền của nút */
+    color: white;
+    /* Màu chữ của nút */
+    font-size: 12px;
+    /* Kích thước chữ của nút */
+    text-align: center;
+    /* Căn chỉnh văn bản vào giữa của nút */
+    line-height: 80px;
+    /* Căn chỉnh văn bản vào giữa của nút */
+    font-weight: 500;
+    /* Chuyển đổi văn bản thành chữ in hoa */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    outline: none;
+    /* Loại bỏ viền */
+    border: none;
+    /* Loại bỏ viền */
+
+}

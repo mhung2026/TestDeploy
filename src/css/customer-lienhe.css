@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.customerlienhe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.customerlienheghichu {
+    background-color: #f9f9f9; /* Màu nền */
+    padding: 20px; /* Khoảng cách nội dung từ các cạnh của phần tử */
+    border-radius: 5px; /* Bo tròn viền */
+    border: 1px solid #ccc;
+}
+
+.customerlienheghichu span {
+    /* display: block; Hiển thị mỗi dòng văn bản trên một dòng mới */
+    margin-bottom: 10px; /* Khoảng cách giữa các dòng văn bản */
+    /* font-weight: bold; Đậm */
+    line-height: 40px;
+    
+}
+
+.customerlienheghichu input {
+    width: 100%; /* Chiều rộng 100% của phần tử */
+    margin-bottom: 10px; /* Khoảng cách giữa các ô input */
+    padding: 8px; /* Khoảng cách nội dung từ các cạnh của phần tử */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.customerlienheghichu button {
+    background-color: #90c908; /* Màu nền */
+    color: #fff; /* Màu văn bản */
+    border: none; /* Không có viền */
+    border-radius: 5px; /* Bo tròn viền */
+    padding: 10px 20px; /* Khoảng cách nội dung từ các cạnh của phần tử */
+    cursor: pointer; /* Con trỏ chuột */
+}
+
+.customerlienhe input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.customerlienhe button {
+    padding: 10px 20px;
+    background-color: #90c908;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.customerlienhe button:hover {
+    background-color: #0056b3;
+}
+
+.customerlienhe img {
+    margin-right: 10px;
+}
+
+.mapcontact {
+    width: 98%;
+    height: 450px;
+    border: 0;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.infocontactshop{
+    margin-right: -160px;
+    margin-left: 120px;
+    line-height: 60px;
+    margin-top: -40px;
+
+}
+
+.infocontactshopinfo a{
+    text-decoration: none;
+    color: black;
+}
+
